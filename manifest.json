@@ -1,0 +1,119 @@
+{
+  "name": "Gamecube Theme",
+  "description": "Gamecube UI for OperaGX",
+  "developer": {
+    "name": "Wsmnb"
+  },
+  "icons": {
+    "512": "icon_512.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "license": "license.txt",
+    "payload": {
+      "background_music": [
+        "music/track_1.mp3"
+      ],
+      "browser_sounds": {
+        "CLICK": [
+          "sound/click.wav"
+        ],
+        "FEATURE_SWITCH_OFF": [
+          "sound/feature_switch_off.wav"
+        ],
+        "FEATURE_SWITCH_ON": [
+          "sound/feature_switch_on.wav"
+        ],
+        "HOVER": [
+          "sound/hover.wav"
+        ],
+        "LIMITER_OFF": [
+          "sound/limiter_off.wav"
+        ],
+        "LIMITER_ON": [
+          "sound/limiter_on.wav"
+        ],
+        "SWITCH_TOGGLE": [
+          "sound/switch.wav"
+        ],
+        "TAB_CLOSE": [
+          "sound/close_tab.wav"
+        ],
+        "TAB_INSERT": [
+          "sound/new_tab.wav"
+        ],
+        "TAB_SLASH": [
+          "sound/tab_slash.wav"
+        ]
+      },
+      "keyboard_sounds": {
+        "TYPING_BACKSPACE": [
+          "keyboard/backspace.wav"
+        ],
+        "TYPING_ENTER": [
+          "keyboard/enter.wav"
+        ],
+        "TYPING_LETTER": [
+          "keyboard/letter_1.wav",
+          "keyboard/letter_2.wav",
+          "keyboard/letter_3.wav"
+        ],
+        "TYPING_SPACE": [
+          "keyboard/space.wav"
+        ]
+      },
+      "page_styles": [
+        {
+          "css": [
+            "webmodding/opera.css"
+          ],
+          "matches": [
+            "https://*.opera.com/*"
+          ]
+        }
+      ],
+      "theme": {
+        "dark": {
+          "gx_accent": {
+            "h": 275,
+            "s": 100,
+            "l": 26
+          },
+          "gx_secondary_base": {
+            "h": 0,
+            "s": 0,
+            "l": 0
+          }
+        },
+        "light": {
+          "gx_accent": {
+            "h": 38,
+            "s": 16.6,
+            "l": 29.6
+          },
+          "gx_secondary_base": {
+            "h": 0,
+            "s": 0,
+            "l": 100
+          }
+        }
+      },
+      "wallpaper": {
+        "light": {
+          "image": "wallpaper/video.webm",
+          "first_frame": "wallpaper/first_frame.jpeg",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#0B000E"
+        },
+        "dark": {
+          "image": "wallpaper/video.webm",
+          "first_frame": "wallpaper/first_frame.jpeg",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#757575"
+        }
+      }
+    },
+    "schema_version": 1
+  },
+  "version": "1.21"
+}
